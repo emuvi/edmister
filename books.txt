@@ -1,0 +1,90 @@
+﻿ - obra - 
+
+codigo (crs)
+
+ativo (log)
+retido (log)
+sigiloso (log)
+raro (log)
+
+especie (crs) - cad especies
+ 
+titulo (crs)
+subtitulo (crs)
+autor_principal (crs) - cad autores
+autor_secundario (crs) - cad autores
+
+cdd (crs) - cad cdds
+cdu (crs) - cad cdus
+cdo (crs) - cad cdos
+
+codigo de chamada (crs)
+codigo de barras (crs)
+
+idioma_principal (crs) - cad idiomas
+idioma_secundario (crs) - cad idiomas
+
+edicao (crs)
+volume (crs)
+ano (int)
+local (crs)
+editora (crs) - cad pessoa
+
+projeto (crs) - cad projetos
+patrimonio (crs) - cad patrimonios
+situação (crs) - cad situacoes
+autorização (crs) - cad autorizacoes
+
+serie (crs) - cad series
+subserie (crs) - cad subseries
+
+ - exemplar - 
+ 
+codigo (crs)
+unitario (serlon)
+tombo (crs)
+
+ativo (log)
+retido (log)
+sigiloso (log)
+raro (log)
+
+suporte (crs) - cad suportes
+numero exemplar (int)
+
+cdd (crs) - cad cdds
+cdu (crs) - cad cdus
+cdo (crs) - cad cdos
+
+codigo de chamada (crs)
+codigo de barras (crs)
+
+volume (crs)
+edicao (crs)
+ano (int)
+local (crs)
+editora (crs) - cad pessoa
+diferencial (crs)
+
+projeto (crs) - cad projetos
+patrimonio (crs) - cad patrimonios
+situação (crs) - cad situacoes
+autorização (crs) - cad autorizacoes
+
+setor (crs) - cad setores
+subsetor (crs) - cad subsetores
+entrada (dat)
+saida (dat)
+
+mercancia (crs) - cad mercancias
+fornecedor (crs) - cad pessoas
+aquisicao (dat)
+ofício (crs)
+moeda (crs) - cad moedas
+valor (numlon)
+
+obs (crs)
+
+ - exemplares digitais - 
+
+configurar um servidor FTP para fazer os uploads e downloads
