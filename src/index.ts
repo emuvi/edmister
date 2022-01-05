@@ -1,6 +1,6 @@
 import { QinColumn, QinLabel } from "qinpel-cps"
 
-class QinScaffold extends QinColumn {
+class EdMister extends QinColumn {
 
     private qinHello: QinLabel = new QinLabel("Hello, world!");
 
@@ -11,4 +11,4 @@ class QinScaffold extends QinColumn {
 
 }
 
-new QinScaffold().putAsBody();
+new EdMister().putAsBody();
