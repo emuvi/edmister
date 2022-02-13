@@ -1,12 +1,14 @@
 {
   "name": "edmister",
-  "version": "0.1.0",
+  "displayName": "EdMister",
   "description": "EdMister ( Education Craft ) is a manager for the Qinpel user applications to launch all the education tools of the Pointel platform.",
-  "main": "./build/main.js",
-  "types": "./types/main.d.ts",
   "keywords": [],
+  "repository": "https://github.com/emuvi/edmister",
   "author": "Éverton M. Vieira",
   "license": "LGPL-3.0-only",
+  "version": "0.1.0",
+  "main": "./build/main.js",
+  "types": "./types/main.d.ts",
   "dependencies": {
     "qinpel-cps": "file:../qinpel-cps",
     "qinpel-res": "file:../qinpel-res"
